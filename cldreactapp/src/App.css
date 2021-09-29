@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mygrid{
+  display: grid;
+  grid-template-columns:repeat(2, auto);
+  margin: 22px;
+}
+.clg{
+    margin: 17px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* overflow: hidden; */
+    box-shadow: 5px 5px 6px #decbcc;
+}
+.coldiv{
+  background: black;
+  height: 211px;
+  width: 658px;
+  z-index: -1;
+  opacity: 0.9;
+}
+.imgdiv{
+  background: url('./img/college_02.jpg') no-repeat center center/cover;
+  height: 211px;
+  width: 658px;
+  overflow: hidden;
+  opacity: 0.3;
+  z-index: -1;
+}
+.ptclg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clgImg{
+  /* height: 70%; */
+}
+.rate{
+  position: absolute;
+  background: orange;
+  border-radius: 10px;
+  top: 15px;
+  padding: 5px 18px;
+  right: 15px;
+  font-size: 0.8rem;
+}
+.txt1{
+  position: absolute;
+  background: white;
+  border-radius: 34px;
+  bottom: 112px;
+  padding: 5px 18px;
+  left: 15px;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+.txt2{
+  position: absolute;
+  background: white;
+  border-radius: 34px;
+  bottom: 112px;
+  padding: 5px 18px;
+  left: 128px;
+  font-size: 0.8rem;
+  width: fit-content;
+  margin-left: 50px;
+}
+
+.txt3{
+  width: fit-content;
+  position: absolute;
+  bottom: 112px;
+  padding: 5px 18px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.clgName{
+  font-size: 1.1rem;
+  width: fit-content;
+  font-weight: bold;
+  margin: 2px;
+  margin-top: 5px;
+}
+
+.add1{
+  width: fit-content;
+  font-size: 0.8rem; 
+  margin: 2px;
+}
+
+.add2{
+  margin: 2px;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+.txtDivLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.text{
+  font-size: 0.8rem;
+    border-radius: 16px;
+    background-color: #20efe1;
+    padding-left: -4px;
+    display: inline;
+    position: relative;
+    left: -30px;
+    padding-left: 32px;
+    width: fit-content;
+    padding-right: 8px;
+}
+
+.txtDivRight{
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+
+.origFees{
+  font-size: 0.7rem;
+  width: fit-content;
+  margin: 2px;
+  position: absolute;
+  bottom: 85px;
+  right: 15px;
+  
+}
+.disFees{
+  font-size: 1.5rem;
+  color: red;
+  font-weight: bold;
+  width: fit-content;
+  margin: 2px;
+}
+.txt4{
+  font-size: 0.7rem;
+  width: fit-content;
+  margin: 2px;
+}
+.txt5{
+  font-size: 0.7rem;
+  width: fit-content;
+  margin: 2px;
+  color: #0089ff;
+}
+
+.pDiv{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#disc{
+  background: red;
+  width: 30px;
+  height: 17px;
+  display: inline-block;
+  /* position: absolute;
+  top: 10px; */
+}
+
+#flag {
+  width: 140px;
+  height: 2.5rem;
+  box-sizing: content-box;
+  position: absolute;
+  background: rgb(0 79 255);
+  color: white;
+  font-size: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -18px;
+  right: 30px;
+}
+#flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 23px solid #eee;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+}
+#promote{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: -9px;
+  right: 61px;
+  color: white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.discount{
+  position: absolute;
+  bottom: 80px;
+    font-size: 0.7rem;
+    right: 25px;
+    color: white;
+}
